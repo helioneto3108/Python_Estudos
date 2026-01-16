@@ -31,4 +31,4 @@ else:
 total = (natural * qtde_Natural) + (Gas * qtde_Gas) 
 # %%
 # Exibindo total que deve pagar
-print(f"Muito obrigado por escolher a gente! O valor total deu {total:.1f}, volte sempre!")
+print(f"Muito obrigado por escolher a gente! O valor total deu R${total:.1f}, volte sempre!")
