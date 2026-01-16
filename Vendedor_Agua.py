@@ -28,6 +28,7 @@ elif selecao == 1:
     qtde_Natural = float(input("Digite o número da quantidade de garrafa de água natural que deseja\n"))
 else:
     print("Você selecionou uma opção inválida, reinicie o programa")
+    exit() # Encerrar o programa caso tenha sido selecionado algo de errado
 # %%
 # Fazendo o calculo do total
 total = (natural * qtde_Natural) + (Gas * qtde_Gas) 
